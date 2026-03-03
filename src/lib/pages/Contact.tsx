@@ -44,7 +44,7 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("http://localhost:5001/api/complaints", {
+      const response = await fetch("https://backend-p40q.onrender.com/api/complaints", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -276,3 +276,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
