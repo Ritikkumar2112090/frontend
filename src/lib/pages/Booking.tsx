@@ -65,7 +65,7 @@ const Booking = () => {
       };
 
       const response = await fetch(
-        "http://localhost:5001/api/bookings",
+        "https://backend-p40q.onrender.com/api/bookings",
         {
           method: "POST",
           headers: {
@@ -284,3 +284,4 @@ const Booking = () => {
 };
 
 export default Booking;
+
