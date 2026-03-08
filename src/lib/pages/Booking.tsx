@@ -61,7 +61,7 @@ const Booking = () => {
 
       const timeout = setTimeout(() => {
         controller.abort();
-      }, 20000);
+      }, 2000);
 
       const response = await fetch(
         "https://backend-p40q.onrender.com/api/bookings",
@@ -264,3 +264,4 @@ const Booking = () => {
 };
 
 export default Booking;
+
